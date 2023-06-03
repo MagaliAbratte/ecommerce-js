@@ -1,0 +1,164 @@
+[
+    {
+        "id": 1,
+        "img": "assets/img/productos/prod8.jpg",
+        "name": "Mate Amelia",
+        "category": "mates",
+        "price": 4000,
+        "description": "Mate de ceramica moldeado a mano, con detalles en relieve y flores celestes.",
+        "stock":10
+    },
+    {
+        "id": 2,
+        "img": "assets/img/productos/prod.jpg",
+        "name": "Mate Jazmin",
+        "category": "mates",
+        "price": 4000,
+        "description": "Mate de ceramica moldeado a mano, con detalles en relieve.",
+        "stock":10
+    },
+    {
+        "id": 3,
+        "img": "assets/img/productos/prod4.jpg",
+        "name": "Mate Magnolia",
+        "category": "mates",
+        "price": 4000,
+        "description": "Mate de ceramica moldeado a mano, con detalles en relieve de flores.",
+        "stock":10
+    },
+    {
+        "id": 4,
+        "img": "assets/img/productos/prod11.jpg",
+        "name": "Jarron Ceramico",
+        "category": "vajilla",
+        "price": 5000,
+        "description": "Jarron ceramico para galletas, de 20cmx15cm.",
+        "stock":10
+    },
+    {
+        "id": 5,
+        "img": "assets/img/productos/prod13.jpg",
+        "name": "Jarra Ceramica",
+        "category": "vajilla",
+        "price": 6200,
+        "description": "Jarra ceramica para agua caliente y fria.",
+        "stock":10
+    },
+    {
+        "id": 6,
+        "img": "assets/img/productos/prod14.jpg",
+        "name": "Jarra Ceramica",
+        "category": "vajilla",
+        "price": 6200,
+        "description": "Jarra ceramica para agua caliente y fria.",
+        "stock":10
+    },
+    {
+        "id": 7,
+        "img": "assets/img/productos/prod12.jpg",
+        "name": "Taza Ceramica",
+        "category": "vajilla",
+        "price": 3500,
+        "description": "Taza ceramica con detalles en relieve para infusiones.",
+        "stock":10
+    },
+    {
+        "id": 8,
+        "img": "assets/img/productos/prod2.jpg",
+        "name": "Canasto para huevos",
+        "category": "accesorios",
+        "price": 3000,
+        "description": "Canasto pequeño de cocina multiuso, tejido a mano con fibras naturales.",
+        "stock":10
+    },
+    {
+        "id": 9,
+        "img": "assets/img/productos/prod3.jpg",
+        "name": "Huevera",
+        "category": "accesorios",
+        "price": 4800,
+        "description": "Molde de ceramica para 6 huevos, apto para heladera.",
+        "stock":10
+    },
+    {
+        "id": 10,
+        "img": "assets/img/productos/prod5.jpg",
+        "name": "Bowl #1",
+        "category": "vajilla",
+        "price": 5500,
+        "description": "Bowl ceramico blanco pequeño, con detalles en relieve. Apto para microondas",
+        "stock":10
+    },
+    {
+        "id": 11,
+        "img": "assets/img/productos/prod6.jpg",
+        "name": "Azucarera",
+        "category": "vajilla",
+        "price": 3800,
+        "description": "Azucarera de ceramica blanca, con detalles en relieve.",
+        "stock":10
+    },
+    {
+        "id": 12,
+        "img": "assets/img/productos/prod7.jpg",
+        "name": "Bowl #2",
+        "category": "vajilla",
+        "price": 6000,
+        "description": "Bowl ceramico blanco grande, con detalles en relieve. Apto para microondas",
+        "stock":10
+    },
+    {
+        "id": 13,
+        "img": "assets/img/productos/prod1.jpg",
+        "name": "Macetas con soporte",
+        "category": "accesorios",
+        "price": 8000,
+        "description": "Macetas blancas plasticas con soporte en madera de pino. Varias medidas",
+        "stock":10
+    },
+    {
+        "id": 14,
+        "img": "assets/img/productos/prod9.jpg",
+        "name": "Canastos",
+        "category": "accesorios",
+        "price": 12000,
+        "description": "Canastos trenzados con fibras naturales, porta macetas.",
+        "stock":10
+    },
+    {
+        "id": 15,
+        "img": "assets/img/productos/prod10.jpg",
+        "name": "Vela de soja",
+        "category": "accesorios",
+        "price": 2500,
+        "description": "Vela de soja natural, en recipiente de vidrio grande.",
+        "stock":10
+    },
+    {
+        "id": 16,
+        "img": "assets/img/productos/prod17.jpeg",
+        "name": "Vela de soja",
+        "category": "accesorios",
+        "price": 2500,
+        "description": "Vela de soja natural, en recipiente de madera circular.",
+        "stock":10
+    },
+    {
+        "id": 17,
+        "img": "assets/img/productos/prod18.jpeg",
+        "name": "Vela de soja",
+        "category": "accesorios",
+        "price": 2500,
+        "description": "Vela de soja natural, formas geometricas de molde.",
+        "stock":10
+    },
+    {
+        "id": 18,
+        "img": "assets/img/productos/prod16.jpeg",
+        "name": "Individual",
+        "category": "accesorios",
+        "price": 3900,
+        "description": "Individual trenzado en fibras naturales.",
+        "stock":10
+    }
+]

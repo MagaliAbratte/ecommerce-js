@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//VARS
+$title:'DM Serif Display', serif;
+$subtitle:'DM Sans', sans-serif;
+$color1: #146551;
+$color2: #007566;
+$btn-hover: #589A8D;
+
+
+//NAVBAR
+.navbar{
+    font-family: $subtitle;
+    color: $color1;
+    font-size: 1rem;
+
+    .container-fluid{
+        background-color: white;
+
+        .logo{
+            max-width: 100px;
+        }
+
+        .nav-link:hover{
+            border-radius: 15px;
+            background-color: $color2;
+            color: white;
+            padding: 7px;
+        }
+
+        .nav-item{
+            .icono-carrito{
+                max-width: 50px;
+            }
+
+            .icono-carrito:hover{
+                max-width: 53px;
+            }
+
+            .btn{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+
+                .counter{
+                    width: 25px;
+                    font-family: $subtitle;
+                    background-color: $color1;
+                    border-radius: 50%;
+                    color: white;
+                    margin-left: -20px;
+                }
+            }
+        }
+
+        .category{
+            border: none;
+            cursor: pointer;
+        }
+
+        .category:hover{
+            border-radius: 15px;
+            background-color: $color2;
+            color: white;
+            padding: 7px;
+        }
+
+        .navbar-toggler{
+            border: none;
+        }
+    }
+}
+
+//CARDS
+
+.products-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    .card{
+        border: none;
+        margin: 10px;
+
+        .card-title{
+            font-family: $title;
+            font-size: 1.5rem;
+        }
+    
+        .card-text{
+            height: 65px;
+            font-family: $subtitle;
+        }
+    
+        .btn{
+            background-color: #007566;
+            font-family: $subtitle;
+        }
+
+        .btn:hover{
+            background-color: $btn-hover;
+            border-color: $btn-hover;
+        }
+
+        &:hover{
+            box-shadow: 5px 5px 5px 0px rgba(230,230,230,1);
+        }
+    }
+}
+
+//MODAL
+
+.modal{
+    .modal-title{
+        font-family: $title;
+        text-align: center;
+    }
+
+    .modal-text{
+        font-family: $subtitle;
+        text-align: center;
+    }
+
+    .modal-footer{
+        margin: 0 auto;
+
+        .btn{
+            background-color: #007566;
+            font-family: $subtitle;
+        }
+    
+        .btn:hover{
+            background-color: $btn-hover;
+            border-color: $btn-hover;
+        }
+    }
+    .card{
+        margin: 0 auto;
+
+        .img-fluid{
+            height: 120px;
+        }
+    }
+
+    .order{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        border-bottom: 1px solid $color1;
+
+        .order-text{
+            font-family: $subtitle;
+            padding: 20px;
+            text-align: center;
+        }
+    }
+
+    .order-text-total{
+        font-family: $subtitle;
+        text-align: center;
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+}
+
+
+//MEDIAS QUERIES
+@media only screen and (max-width: 767px) {
+    .navbar{
+        .container-fluid{
+            .category{
+                .category-option{
+                    max-width: auto;
+                }
+            }
+        }
+    }
+
+
+    .modal{
+        .modal-footer{
+            display: flex;
+            flex-direction: row;
+            justify-content:center
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    
+}
+  
+
+
+  
+
+
+
